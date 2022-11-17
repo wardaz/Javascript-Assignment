@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center; ">Assignment 17</h1>
+    <p  style="text-align: center; ">Inspect to see output</p>
+
+    <script>
+/* 1- Write a program using a for loop and print the numbers from 200 till 0 with the
+ decrement of 3. */
+ console.log("Decrement of 3 numbers")
+ for(var a=200; a>=0; a++){
+    console.log("The numbers are " + a)
+    a-=4; 
+}
+
+// 2- Program to display your name 10 times using a while loop.
+console.log("Name 10 times")
+for(var b=0; b<=9; b++){
+    console.log("Warda" )
+}
+
+// 3- Program to print a sum of even numbers in between 1-10 using a while loop.
+console.log("Sum of even numbers");
+var n1=1;
+var n2=0;   
+while (n1<10) {
+    if (n1%2==0) {
+    n2+=n1;    
+    }
+n1++;
+}
+        console.log("Sum " + n2)
+    
+// 4. Program to display a number between 1 to 5 using the do while loop. 
+console.log("Numbers between 1 to 5");
+var x=1;
+do {
+    console.log("Numbers are "+ x);
+    x++;
+} 
+while (x<=5);
+
+// 5- Function to print the sum of two numbers.
+console.log("Sum of two numbers");
+function sum(a,b) {
+    console.log(a+b);
+}
+sum(30,4);
+
+// 6- Function to calculate and print Area
+funarea(5,4);
+function funarea(w,h) {
+    area=w*h;
+    console.log("Area is " + area);
+}
+
+
+
+    </script>
+</body>
+</html>
